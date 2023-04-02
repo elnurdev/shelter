@@ -540,15 +540,14 @@ body {
     .header__top {
       .hamburger {
         width: 30px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
         span {
           display: block;
           width: 30px;
           height: 2px;
           background: #F1CDB3;
-        }
-        span:nth-child(2) {
-          margin: 10px 0;
         }
       }
       .header__items {
