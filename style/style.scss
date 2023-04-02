@@ -494,6 +494,11 @@ body {
       .donation__body {
         flex-direction: column-reverse;
         gap: 60px;
+        .donation__textbox {
+          .donation__card {
+            overflow: hidden;
+          }
+        }
       }
     }
   }
