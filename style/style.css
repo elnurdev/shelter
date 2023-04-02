@@ -255,7 +255,7 @@ body {
   padding: 81px 0 43px 0;
 }
 .help .container {
-  max-width: 1030px;
+  max-width: 1090px;
   margin: 0 auto;
 }
 .help .container .help__title {
@@ -289,13 +289,14 @@ body {
   background: #F6F6F6;
 }
 .donation .container_prm {
-  max-width: 915px;
+  max-width: 945px;
   margin: 0 auto;
 }
 .donation .container_prm .donation__body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
 }
 .donation .container_prm .donation__body .donation__textbox {
   max-width: 380px;
@@ -313,9 +314,11 @@ body {
   color: #545454;
 }
 .donation .container_prm .donation__body .donation__textbox .donation__card {
-  padding: 10px 15px;
+  width: 100%;
+  padding: 10px 13px;
   display: flex;
   align-items: center;
+  height: 43px;
   position: relative;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -351,7 +354,9 @@ body {
   color: #545454;
 }
 .donation .container_prm .donation__body .donation__textbox .donation__card:hover {
-  height: 42.5px;
+  width: 100%;
+  height: 43px;
+  padding: 10px 12px;
   border: 2px solid #F1CDB3;
   background: transparent;
 }
